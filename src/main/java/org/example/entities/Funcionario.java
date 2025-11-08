@@ -1,0 +1,12 @@
+package org.example.entities;
+
+import java.time.Instant;
+
+public class Funcionario {
+    private Long id;
+    private String nome;
+    private String matricula;
+    private String cargo;
+    private Instant dataAdmissao;
+    private Double salario;
+}
